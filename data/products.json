@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "product": "xyz",
+            "price":230,
+            "category": "clothing"
+        }
+
+   
+    ]
+}
