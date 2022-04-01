@@ -9,6 +9,9 @@ app.get("/",(req, res)=>{
 app.get("/posts", (req,res)=>{
     res.json(postsData.products)
 })
-app.listen(3000)
+
 
 //heroku app deployment
+let PORT = process.env.PORT || 3000
+
+app.listen(PORT)
